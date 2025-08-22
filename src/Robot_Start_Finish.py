@@ -45,6 +45,6 @@ def wait_for_button_press(button_pin):
             if GPIO.input(button_pin) == GPIO.HIGH:
                 print("Button pressed. Starting robot operation.")
 
-def pwoer_off():
+def power_off():
     print("Robot will shut down")
     GPIO.cleanup()
